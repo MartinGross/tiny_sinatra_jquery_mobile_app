@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
-%w(sinatra sqlite3 dm-sqlite-adapter data_mapper haml time).each{|g| require g}
+%w(sinatra jdbc/sqlite3 dm-sqlite-adapter data_mapper haml time).each{|g| require g}
 
 ########## MODELS
 class Event
