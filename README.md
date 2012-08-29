@@ -6,3 +6,7 @@ Tiny Sinatra jQuery Mobile App
 Code for an [article on Rubysource.com](http://rubysource.com)
 
 This fork is adapted for using with JRuby.
+
+
+$ bundle install
+$ jruby pilltracker.rb

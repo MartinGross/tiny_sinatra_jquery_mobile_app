@@ -11,6 +11,7 @@ class Event
 end
 
 ########## PERSISTENCE
+DataMapper::Logger.new($stdout, :debug)
 DataMapper::setup(:default,"sqlite3:pilltracker.db")
 DataMapper.finalize.auto_upgrade!
 
